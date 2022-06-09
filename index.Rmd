@@ -1,6 +1,7 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS"
+author: "García Flores Mariana, Gonzalez Carrasco Jean Carlo, Hernández Palma Evelyn Abigail, Martínez Pinto Selene del Sagrario."
+
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
