@@ -1,3 +1,8 @@
-down-the-rabbit-hole
-the-pool-of-tears
-a-caucus-race-and-a-long-tale
+part-primera-sección
+introducción
+sabes-qué-es-un-control-de-accesos
+control-de-accesos
+funcionamiento-del-control-de-accesos
+qué-debemos-tomar-en-cuenta-dentro-de-un-control-de-accesos
+qué-tipo-de-control-conviene-más
+control-de-acceso-basado-en-roles-rbac.

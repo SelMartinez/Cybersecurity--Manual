@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 ¿Sabes qué es un control de accesos? | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</title>
+  <meta name="description" content="Chapter 3 ¿Sabes qué es un control de accesos? | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 ¿Sabes qué es un control de accesos? | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 ¿Sabes qué es un control de accesos? | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  
+  
+  
+
+<meta name="author" content="García Flores Mariana, Gonzalez Carrasco Jean Carlo, Hernández Palma Eduardo, Hernández Pérez Evelyn Abigail, Martínez Pinto Selene del Sagrario." />
+
+
+<meta name="date" content="2022-06-09" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introducción.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Manual de Ciberseguridad</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Bienvenida</a></li>
+<li class="chapter" data-level="1" data-path="part-primera-sección.html"><a href="part-primera-sección.html"><i class="fa fa-check"></i><b>1</b> (PART*) Primera Sección</a></li>
+<li class="chapter" data-level="2" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i><b>2</b> Introducción</a></li>
+<li class="chapter" data-level="3" data-path="sabes-qué-es-un-control-de-accesos.html"><a href="sabes-qué-es-un-control-de-accesos.html"><i class="fa fa-check"></i><b>3</b> ¿Sabes qué es un control de accesos?</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="sabes-qué-es-un-control-de-accesos.html"><a href="sabes-qué-es-un-control-de-accesos.html#control-de-accesos"><i class="fa fa-check"></i><b>3.1</b> Control de accesos</a></li>
+<li class="chapter" data-level="3.2" data-path="sabes-qué-es-un-control-de-accesos.html"><a href="sabes-qué-es-un-control-de-accesos.html#funcionamiento-del-control-de-accesos"><i class="fa fa-check"></i><b>3.2</b> Funcionamiento del control de accesos</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="sabes-qué-es-un-control-de-accesos.html"><a href="sabes-qué-es-un-control-de-accesos.html#qué-debemos-tomar-en-cuenta-dentro-de-un-control-de-accesos"><i class="fa fa-check"></i><b>3.2.1</b> ¿Qué debemos tomar en cuenta dentro de un control de accesos?</a></li>
+<li class="chapter" data-level="3.2.2" data-path="sabes-qué-es-un-control-de-accesos.html"><a href="sabes-qué-es-un-control-de-accesos.html#qué-tipo-de-control-conviene-más"><i class="fa fa-check"></i><b>3.2.2</b> ¿Qué tipo de control conviene más?</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="sabes-qué-es-un-control-de-accesos" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> ¿Sabes qué es un control de accesos?<a href="sabes-qué-es-un-control-de-accesos.html#sabes-qué-es-un-control-de-accesos" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="control-de-accesos" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Control de accesos<a href="sabes-qué-es-un-control-de-accesos.html#control-de-accesos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>El control de acceso es una forma de limitar el acceso a un sistema o a los recursos físicos o virtuales de una organización. El control de accesos es una herramienta de seguridad, ahí es donde se administra quién puede acceder a un área en un momento dado, y donde solo cierta persona de distintas áreas de una empresa puede entrar.</p>
+<p>Los sistemas de control de accesos restringen el acceso a usuarios autorizados y así mismo se crea un historial sobre quién entra y quién sale de dicha área.</p>
+<p>Un recurso obligatorio dentro del control de acceso es el uso de credenciales, donde un buen control es la autenticación de dos factores, donde la persona que desea acceder debe mostrar su credencial esto se utiliza para verificar la identidad de la persona y como segundo factor es un PIN o una identificación biométrica.</p>
+<div class="figure">
+<img src="https://media.istockphoto.com/vectors/access-control-system-concept-vector-id1345174938?s=612x612" alt="" />
+<p class="caption">Nagiev, R. U. D. Z. H. A. N. (2021, 6 octubre). control de accesos.istock.</p>
+</div>
+<p>El control de acceso incluye una autorización, autenticación y auditoría de la entidad que intenta obtener acceso.</p>
+</div>
+<div id="funcionamiento-del-control-de-accesos" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Funcionamiento del control de accesos<a href="sabes-qué-es-un-control-de-accesos.html#funcionamiento-del-control-de-accesos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Su funcionamiento es identificar a los usuarios en base de verificar distintas credenciales de inicio de sesión, donde incluye nombres de usuarios, contraseñas, PIN, datos biométricos, tokens de seguridad.</p>
+<p>Una vez que el control de accesos identifica dichos datos se encarga de dar autorización todo depende del nivel de área y usuario que desea entrar.</p>
+<div id="qué-debemos-tomar-en-cuenta-dentro-de-un-control-de-accesos" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> ¿Qué debemos tomar en cuenta dentro de un control de accesos?<a href="sabes-qué-es-un-control-de-accesos.html#qué-debemos-tomar-en-cuenta-dentro-de-un-control-de-accesos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Seguridad: se debe considerar que el hardware debe ser a prueba de manipulaciones, donde el software debe ser actualizado constantemente para que no sea vulnerable, y dichas credenciales no deben estar sin cifrar, tener una copia o compartirse fácilmente.</li>
+<li>Experiencia de los usuarios: las personas encargadas deben ser capacitadas, para que puedan manipular fácilmente los controles.</li>
+<li>Fiabilidad: el sistema debe ser actualizado constantemente junto con las personas que son encargadas, ya que los sistemas son actualizados, como por ejemplo los datos biométricos, códigos PIN o credenciales de teléfonos inteligentes.</li>
+<li>Flexibilidad: los encargados deben adaptarse a todas las actualizaciones dentro del control de accesos.</li>
+</ul>
+</div>
+<div id="qué-tipo-de-control-conviene-más" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> ¿Qué tipo de control conviene más?<a href="sabes-qué-es-un-control-de-accesos.html#qué-tipo-de-control-conviene-más" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Existen distintos tipos de controles, a continuación, te mostramos la lista con información de como trabaja cada uno, para poder identificar que control conviene más de acuerdo a las necesidades.</p>
+<div id="control-de-acceso-basado-en-roles-rbac." class="section level4 hasAnchor" number="3.2.2.1">
+<h4><span class="header-section-number">3.2.2.1</span> Control de Acceso basado en Roles (RBAC).<a href="sabes-qué-es-un-control-de-accesos.html#control-de-acceso-basado-en-roles-rbac." class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Este consiste en asignar derechos de acceso a usuarios dentro de una organización, esto es dependiendo al área en el que encuentra cada usuario y que tipo de actividad es la que realizan, este control de accesos permite que solo el personal autorizado tenga acceso a su área y que no se involucre en otra área.</p>
+<div class="figure">
+<img src="https://docs.citrix.com/en-us/xencenter/media/rbac-permissions-overview.jpg" alt="" />
+<p class="caption">control de acceso basado en roles. (2018, 30 julio). citrix.</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introducción.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/edit/master/Sabes-que-es-un-control-de-accesos.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/blob/master/Sabes-que-es-un-control-de-accesos.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

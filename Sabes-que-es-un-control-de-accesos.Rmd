@@ -1,0 +1,38 @@
+# ¿Sabes qué es un control de accesos?
+
+## Control de accesos
+
+El control de acceso es una forma de limitar el acceso a un sistema o a los recursos físicos o virtuales de una organización. El control de accesos es una herramienta de seguridad, ahí es donde se administra quién puede acceder a un área en un momento dado, y donde solo cierta persona de distintas áreas de una empresa puede entrar.
+
+Los sistemas de control de accesos restringen el acceso a usuarios autorizados y así mismo se crea un historial sobre quién entra y quién sale de dicha área.
+
+Un recurso obligatorio dentro del control de acceso es el uso de credenciales, donde un buen control es la autenticación de dos factores, donde la persona que desea acceder debe mostrar su credencial esto se utiliza para verificar la identidad de la persona y como segundo factor es un PIN o una identificación biométrica.
+
+![Nagiev, R. U. D. Z. H. A. N. (2021, 6 octubre). control de accesos.istock.](https://media.istockphoto.com/vectors/access-control-system-concept-vector-id1345174938?s=612x612)
+
+El control de acceso incluye una autorización, autenticación y auditoría de la entidad que intenta obtener acceso.
+
+## Funcionamiento del control de accesos
+
+Su funcionamiento es identificar a los usuarios en base de verificar distintas credenciales de inicio de sesión, donde incluye nombres de usuarios, contraseñas, PIN, datos biométricos, tokens de seguridad.
+
+Una vez que el control de accesos identifica dichos datos se encarga de dar autorización todo depende del nivel de área y usuario que desea entrar.
+
+### ¿Qué debemos tomar en cuenta dentro de un control de accesos?
+
+* Seguridad: se debe considerar que el hardware debe ser a prueba de manipulaciones, donde el software debe ser actualizado constantemente para que no sea vulnerable, y dichas credenciales no deben estar sin cifrar, tener una copia o compartirse fácilmente.
+* Experiencia de los usuarios: las personas encargadas deben ser capacitadas, para que puedan manipular fácilmente los controles.
+* Fiabilidad: el sistema debe ser actualizado constantemente junto con las personas que son encargadas, ya que los sistemas son actualizados, como por ejemplo los datos biométricos, códigos PIN o credenciales de teléfonos inteligentes.
+* Flexibilidad: los encargados deben adaptarse a todas las actualizaciones dentro del control de accesos.
+
+### ¿Qué tipo de control conviene más?
+
+Existen distintos tipos de controles, a continuación, te mostramos la lista con información de como trabaja cada uno, para poder identificar que control conviene más de acuerdo a las necesidades.
+
+#### Control de Acceso basado en Roles (RBAC).
+
+Este consiste en asignar derechos de acceso a usuarios dentro de una organización, esto es dependiendo al área en el que encuentra cada usuario y que tipo de actividad es la que realizan, este control de accesos permite que solo el personal autorizado tenga acceso a su área y que no se involucre en otra área.
+
+![control de acceso basado en roles. (2018, 30 julio). citrix.](https://docs.citrix.com/en-us/xencenter/media/rbac-permissions-overview.jpg)
+
+
