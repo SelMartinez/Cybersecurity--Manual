@@ -1,9 +1,18 @@
-# (PART\*) Primera Sección
-
 # Introducción
 
-Lorem markdownum, aequent vocem dixit tamen quidem crimine in maris protinus
-moror *telluris* magno, marinae Latonae. Opaca tamquam ligari!
+Los seguros hoy en día se han vuelto una necesidad para las personas, debido a los cambios que han surgido con la pandemia, se han visto obligados a adquirir seguros de distintos tipos como seguros de gastos médicos mayores, seguros básicos de salud, algunos ciberseguros, entre otros; esto ha sido una brecha bastante importante para los ciberataques, por lo que es necesario que las empresas busquen opciones de protección para sus datos.
 
-Lorem markdownum, aequent vocem dixit tamen quidem crimine in maris protinus
-moror *telluris* magno, marinae Latonae. Opaca tamquam ligari!
+Muchas empresas no conocen como se manejan los datos en los seguros, si cuentan con sistemas de protección, y si cuentan con ellos que nivel son, hay mucha desinformación al respecto, debido a que la ciberseguridad aun es un tema no muy habitual en México, la mayoría de las personas y las empresas desconocen de esta información es por ello que al contratar seguros no hacen preguntas relacionadas con la seguridad de sus datos.
+
+Por estas razones hemos creado este pequeño manual donde damos a conocer algunas herramientas de protección de datos, para que cuando alguna persona o empresa desee adquirir un seguro pueda preguntar y de alguna manera evaluar por sí mismo su sistema.
+
+Algunas de estas herramientas son:
+
+*	Control de accesos
+*	Diameter
+*	Kerberos
+*	Monitoreo personal
+*	Evaluación de personal
+*	Owasp Zap
+
+A continuación, daremos a conocer cada una de estas herramientas, cuál es su función y cómo se lleva a cabo.

@@ -1,0 +1,24 @@
+# Bibliografía {-}
+
+Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades. Recuperado de: https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/
+F5 Glosary Diameter. Recuperado de: https://www.f5.com/es_es/services/resources/glossary/diameter-protocol
+
+Ramón Jesús Millán Tejedor, (2017). Que es Diamter Signaling Router. Recuperado de: https://www.ramonmillan.com/tutoriales/diametersignalingrouter.php
+
+
+A. (2021a, diciembre 4).¿Qué es el control de acceso obligatorio (MAC)? (Actualizado 2022). Krypton Solid. https://kryptonsolid.com/que-es-el-control-de-acceso-obligatorio-mac/  
+
+Control de acceso basado en atributos - AWSInicio de sesión único. (2005). AWS. https://docs.aws.amazon.com/es_es/singlesignon/latest/userguide/abac.html 
+
+Control de acceso discrecional. (2015). IBM. https://www.ibm.com/docs/es/aix/7.3?topic=security-discretionary-access-control 
+
+Fernández, L. (2021, 29 julio). Control de acceso: qué es y cómo ayuda a proteger nuestros datos. RedesZone. https://www.redeszone.net/tutoriales/seguridad/control-de-acceso-que-es/ 
+
+M. (2016). Control de accesos basado en roles | Role Based Access Control (RBAC) - ManageEngine Device Control Plus. Device Control Plus. https://www.manageengine.com/latam/device-control/control-de-accesos-basado-en-roles.html#:%7E:text=El%20control%20de%20acceso%20basado%20en%20roles%20(RBAC)%20consiste%20en,a%20los%20niveles%20que%20pertenezcan.
+
+mimecast. (05/04/20). What is data leakage?. 07/06/22, de mimecast Sitio web: https://www.mimecast.com/content/data-leakage-prevention/
+ 
+Laura Sembrena. (2008, octubre 28). Selección de personal y evaluación del desempeño. Teoría y caso GEOCUBA. 07/06/22, de Gestiopolis Sitio web: https://www.gestiopolis.com/seleccion-de-personal-y-evaluacion-del-desempeno-teoria-y-caso-geocuba/
+
+Iconic IT. (2022). https://iconicit.com/cybersecurity/who-is-hacking-me-profile-of-a-cybercriminal/ 
+Procotolos de cadena de custodia Dos grandes etapas: preservación y procesamiento (2013). Instituto Nacional de Ciencias Penales. 

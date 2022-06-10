@@ -1,0 +1,56 @@
+# OWASP ZAP
+
+ 
+
+![Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.](https://www.redeszone.net/app/uploads-redeszone.net/2021/05/owasp-zap-destacada.jpg)
+
+
+## ¿Qué es OWASP ZAP?
+
+Es un escáner web de vulnerabilidades, es el más utilizado en todo el mundo, completamente gratuito y de código abierto, es una herramienta multiplataforma lo que permite que sea compatible con los sistemas operativos Windows (de 32 y 64 bits), Linux, MacOS, e incluso se puede descargar un contenedor Docker que incorporará todo lo necesario para ejecutarlo correctamente, por lo que esta herramienta se adapta a tus necesidades.
+
+
+
+### Características
+*	Fácil instalación
+*	Apto para cualquier sistema operativo
+*	Solo requieres tener java descargado
+*	Esta traducido en más de 12 idiomas
+*	Cuenta con foros, tutoriales y documentación que te ayuda a resolver problemas y dudas
+
+### Funciones
+*	Auditoría de aplicaciones web con una serie de funciones y análisis específicos
+*	Comprobación de peticiones y respuestas entre cliente y servidor
+*	Localización de recursos en un servidor
+*	Análisis automáticos
+*	Análisis pasivos
+*	Sistema de inyección para atacar varios servidores simultáneamente
+*	Permite utilizar certificados SSL dinámicos 
+*	Permite utilizar tarjetas inteligentes como DNle
+*	Trabaja con sistemas de autenticación
+*	Permite trabajar con certificados personales
+*	Dispone de una tienda con extensiones (plugins) para extender la funcionalidad de la herramienta
+*	Sistema de políticas para elegir las diferentes reglas que formaran parte del análisis
+*	Diálogos de escaneo con opciones avanzadas
+
+### ¿De qué manera puede ayudar esta herramienta en los seguros?
+
+Debido a la pandemia se generaron varias situaciones que afectaron a las empresas, entre ellas a las aseguradoras, que se vieron seriamente afectadas por robos de identidad, robo de información delicada, filtración de estudios de pacientes, todo esto afecta de manera importante a los usuarios.
+Por lo que las aseguradoras pueden utilizar esta herramienta de manera interna para saber las vulnerabilidades que tienen sus aplicaciones web, algunas formas son:
+
+1.	Utilizar “Automated Scan”, se puede escanear la URL para obtener un escaneo automatizado, en caso de que se requiera información a detalle de la auditoria se tendrán que tener permisos.
+ 
+
+
+![Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.](https://www.redeszone.net/app/uploads-redeszone.net/2021/05/OWASP_ZAP_programa_4.png)
+
+
+2.	Otra forma es a través de los perfiles Chrome o Firefox, se puede utilizar spider tradicional o Ajax, para ejecutar un ataque y así poder realizar el escaneo del servidor web haciendo peticiones GET o POST para detectar posibles vulnerabilidades.
+
+![Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.](https://www.redeszone.net/app/uploads-redeszone.net/2021/05/OWASP_ZAP_programa_5.png)
+ 
+
+Estos escaneos permitirán ver las vulnerabilidades, a que sitios se tienen acceso y la valoración del servidor web, lo que es de mucha ayuda para las aseguradoras que manejan atención personalizada por medio de chat a través de la página, sobre todo cuando piden información específica.
+
+
+

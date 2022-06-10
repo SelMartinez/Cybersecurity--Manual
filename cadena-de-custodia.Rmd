@@ -1,0 +1,23 @@
+# CADENA DE CUSTODIA
+
+Ahora más que nunca, es vital para las empresas el salvaguardar la información que manejan. Y aun así, es posible que fallen en sus esfuerzos debido a los múltiples riesgos que se enfrentan día a día.
+
+Para estos casos, existe un sistema de control que se aplica a los indicios, evidencias, objetos, instrumentos o productos de hechos delictivos, el cual es conocido como cadena de custodia. Aunque estos son procedimientos que siguen las autoridades cuando tratan de esclarecer los hechos relacionados con actos ilícitos. 
+
+Para las empresas o personas que se ven afectadas por estos hechos, puede ser de gran utilidad el conocer algunas medidas básicas a seguir cuando se es la víctima de un acto delictivo relacionado con fugas de información o hackeos, en especial para no entorpecer las investigaciones de las autoridades.
+
+A continuación mencionaremos algunas de estas medidas,
+
+1.	Para casos de robos de equipos portátiles como laptops, celulares o unidades de memoria externas, reportar los hechos ante las autoridades de forma inmediata; as{i como también al personal de TI de la empresa para eliminar los permisos de esos dispositivos y analizar posibles daños.
+2.	Al ser víctimas de delitos con violencia, mantener las escenas lo m{as intactas posibles para que las autoridades realicen su trabajo recolectando evidencias.
+3.	En caso de que la intrusión ocurriese en las instalaciones de la empresa, es importante resguardar los espacios afectados para que no se contaminen las posibles evidencias. 
+4.	Localizar a todo el personal que pudiese haber visto algo para que colaboren con las autoridades con sus declaraciones. Esta información será también vital para quienes se encarguen de cuidar las redes de cómputo y las bases de datos de la empresa.
+5.	Recopilar la evidencia en video, antes de que esta sea eliminada de los servidores.
+6.	En caso de tener información de terceros comprometida, las empresas deberán notificar a las partes afectadas. Tal y como lo indica la Ley de Protección de Datos de Terceros.
+
+La cadena de custodia podrá concluir cuando se descubra que:
+
+1.	Los indicios o materiales probatorios no tengan relación con los hechos delictivos.
+2.	Después de examinar las evidencias y firmar acuerdos probatorios, estos elementos son devueltos a sus dueños.
+3.	Las evidencias recolectadas han concluido su utilidad en un procedimiento penal.
+

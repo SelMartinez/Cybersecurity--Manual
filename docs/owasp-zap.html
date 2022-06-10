@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</title>
-  <meta name="description" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <title>Chapter 6 OWASP ZAP | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</title>
+  <meta name="description" content="Chapter 6 OWASP ZAP | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta property="og:title" content="Chapter 6 OWASP ZAP | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta name="twitter:title" content="Chapter 6 OWASP ZAP | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="sabes-qué-es-un-control-de-accesos.html"/>
+<link rel="prev" href="selección-de-personal..html"/>
+<link rel="next" href="kerberos.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -159,30 +159,73 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introducción" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introducción<a href="introducción.html#introducción" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Los seguros hoy en día se han vuelto una necesidad para las personas, debido a los cambios que han surgido con la pandemia, se han visto obligados a adquirir seguros de distintos tipos como seguros de gastos médicos mayores, seguros básicos de salud, algunos ciberseguros, entre otros; esto ha sido una brecha bastante importante para los ciberataques, por lo que es necesario que las empresas busquen opciones de protección para sus datos.</p>
-<p>Muchas empresas no conocen como se manejan los datos en los seguros, si cuentan con sistemas de protección, y si cuentan con ellos que nivel son, hay mucha desinformación al respecto, debido a que la ciberseguridad aun es un tema no muy habitual en México, la mayoría de las personas y las empresas desconocen de esta información es por ello que al contratar seguros no hacen preguntas relacionadas con la seguridad de sus datos.</p>
-<p>Por estas razones hemos creado este pequeño manual donde damos a conocer algunas herramientas de protección de datos, para que cuando alguna persona o empresa desee adquirir un seguro pueda preguntar y de alguna manera evaluar por sí mismo su sistema.</p>
-<p>Algunas de estas herramientas son:</p>
+<div id="owasp-zap" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> OWASP ZAP<a href="owasp-zap.html#owasp-zap" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="figure">
+<img src="https://www.redeszone.net/app/uploads-redeszone.net/2021/05/owasp-zap-destacada.jpg" alt="" />
+<p class="caption">Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.</p>
+</div>
+<div id="qué-es-owasp-zap" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> ¿Qué es OWASP ZAP?<a href="owasp-zap.html#qué-es-owasp-zap" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Es un escáner web de vulnerabilidades, es el más utilizado en todo el mundo, completamente gratuito y de código abierto, es una herramienta multiplataforma lo que permite que sea compatible con los sistemas operativos Windows (de 32 y 64 bits), Linux, MacOS, e incluso se puede descargar un contenedor Docker que incorporará todo lo necesario para ejecutarlo correctamente, por lo que esta herramienta se adapta a tus necesidades.</p>
+<div id="características" class="section level3 hasAnchor" number="6.1.1">
+<h3><span class="header-section-number">6.1.1</span> Características<a href="owasp-zap.html#características" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>Control de accesos</li>
-<li>Diameter</li>
-<li>Kerberos</li>
-<li>Monitoreo personal</li>
-<li>Evaluación de personal</li>
-<li>Owasp Zap</li>
+<li>Fácil instalación</li>
+<li>Apto para cualquier sistema operativo</li>
+<li>Solo requieres tener java descargado</li>
+<li>Esta traducido en más de 12 idiomas</li>
+<li>Cuenta con foros, tutoriales y documentación que te ayuda a resolver problemas y dudas</li>
 </ul>
-<p>A continuación, daremos a conocer cada una de estas herramientas, cuál es su función y cómo se lleva a cabo.</p>
+</div>
+<div id="funciones" class="section level3 hasAnchor" number="6.1.2">
+<h3><span class="header-section-number">6.1.2</span> Funciones<a href="owasp-zap.html#funciones" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Auditoría de aplicaciones web con una serie de funciones y análisis específicos</li>
+<li>Comprobación de peticiones y respuestas entre cliente y servidor</li>
+<li>Localización de recursos en un servidor</li>
+<li>Análisis automáticos</li>
+<li>Análisis pasivos</li>
+<li>Sistema de inyección para atacar varios servidores simultáneamente</li>
+<li>Permite utilizar certificados SSL dinámicos</li>
+<li>Permite utilizar tarjetas inteligentes como DNle</li>
+<li>Trabaja con sistemas de autenticación</li>
+<li>Permite trabajar con certificados personales</li>
+<li>Dispone de una tienda con extensiones (plugins) para extender la funcionalidad de la herramienta</li>
+<li>Sistema de políticas para elegir las diferentes reglas que formaran parte del análisis</li>
+<li>Diálogos de escaneo con opciones avanzadas</li>
+</ul>
+</div>
+<div id="de-qué-manera-puede-ayudar-esta-herramienta-en-los-seguros" class="section level3 hasAnchor" number="6.1.3">
+<h3><span class="header-section-number">6.1.3</span> ¿De qué manera puede ayudar esta herramienta en los seguros?<a href="owasp-zap.html#de-qué-manera-puede-ayudar-esta-herramienta-en-los-seguros" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Debido a la pandemia se generaron varias situaciones que afectaron a las empresas, entre ellas a las aseguradoras, que se vieron seriamente afectadas por robos de identidad, robo de información delicada, filtración de estudios de pacientes, todo esto afecta de manera importante a los usuarios.
+Por lo que las aseguradoras pueden utilizar esta herramienta de manera interna para saber las vulnerabilidades que tienen sus aplicaciones web, algunas formas son:</p>
+<ol style="list-style-type: decimal">
+<li>Utilizar “Automated Scan”, se puede escanear la URL para obtener un escaneo automatizado, en caso de que se requiera información a detalle de la auditoria se tendrán que tener permisos.</li>
+</ol>
+<div class="figure">
+<img src="https://www.redeszone.net/app/uploads-redeszone.net/2021/05/OWASP_ZAP_programa_4.png" alt="" />
+<p class="caption">Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.</p>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>Otra forma es a través de los perfiles Chrome o Firefox, se puede utilizar spider tradicional o Ajax, para ejecutar un ataque y así poder realizar el escaneo del servidor web haciendo peticiones GET o POST para detectar posibles vulnerabilidades.</li>
+</ol>
+<div class="figure">
+<img src="https://www.redeszone.net/app/uploads-redeszone.net/2021/05/OWASP_ZAP_programa_5.png" alt="" />
+<p class="caption">Sergio de Luz, (Mayo, 2021). OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades.</p>
+</div>
+<p>Estos escaneos permitirán ver las vulnerabilidades, a que sitios se tienen acceso y la valoración del servidor web, lo que es de mucha ayuda para las aseguradoras que manejan atención personalizada por medio de chat a través de la página, sobre todo cuando piden información específica.</p>
 
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="sabes-qué-es-un-control-de-accesos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="selección-de-personal..html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="kerberos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -213,7 +256,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/SelMartinez/Cybersecurity--Manual/edit/master/Introducción.Rmd",
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/edit/master/OWASP-ZAP.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -221,7 +264,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/SelMartinez/Cybersecurity--Manual/blob/master/Introducción.Rmd",
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/blob/master/OWASP-ZAP.Rmd",
 "text": null
 },
 "download": null,

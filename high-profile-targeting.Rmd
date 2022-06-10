@@ -1,0 +1,24 @@
+# EVALUACIÓN DEL PERSONAL DE ALTO PERFIL EN LAS EMPRESAS CONTRA ACTIVIDADES DE HACKEO O PROFILE TARGETING.
+
+No importa el tamaño de las empresas, puede ser desde pequeñas hasta grandes corporaciones, difícilmente se está a salvo de los cibercriminales. Si tomamos en cuenta que los ciberataques ocurren muchas veces desde países distinto de donde se encuentran los objetivos, nos daremos  cuenta que ellos son una fuerza de trabajo que funciona las 24 horas del día para lograr sus objetivos de hackeo.
+
+Las razones por las que los cibercriminales escogen a sus víctimas son:
+
+1.	Acceder a sus bases de datos
+2.	Lograr acceso a su infraestructura
+3.	Por venganza, casi siempre son clientes o empleados.
+4.	Por poder
+5.	Para obtener publicidad o notoriedad.
+
+No hay que olvidar que los empleados que ocupan altos cargos en la empresa son un objetivo en s{i mismo, ya que si se les hackea a ellos, será más fácil a los cibercriminales obtener acceso a la información que desean obtener.
+
+Precisamente por esto, es que muchas empresas han tomado medidas para proteger no sólo al personal que ocupa cargos importantes en la empresa, sino para proteger en sí a los activos, que en este caso, es la información.
+
+Usualmente, es el personal de TI junto con el área de seguridad quienes realizan evaluaciones periódicas y revisan los riesgos del personal que tiene acceso a información privilegiada. Estas actividades no solo las realizan con el personal que ya ocupa los altos puestos, sino que además se evalúan los riesgos de las personas que pudieran llegar a ocupar dichos cargos, ya sea de forma temporal o permanente.
+
+Entre las medidas que se llevan a cabo se encuentran:
+
+1.	Realizar entrenamientos específicos a dicho personal para que conozcan las actividades en línea que los ponen en riesgo, como pueden ser: sitios de apuestas, compartir cierta información en redes sociales, ser parte de partidos políticos o asociaciones religiosas, etc.
+2.	Realizar evaluaciones periódicas de sus redes de cómputo y de sus dispositivos, tanto en oficina como en casa, para detectar hackeo de equipos y redes.
+3.	Entrenamientos especiales contra scams dirigidas especialmente a ellos, esto con la finalidad de que puedan detectarlas y que no caigan en ellas.
+4.	Asesoría sobre cómo deben tratar con acosadores, ya sea los que acosan en persona, como los que lo hacen en línea.

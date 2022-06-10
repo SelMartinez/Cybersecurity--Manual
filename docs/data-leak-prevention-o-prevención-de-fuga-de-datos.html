@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</title>
-  <meta name="description" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <title>Chapter 3 Data leak prevention o prevención de fuga de datos | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS</title>
+  <meta name="description" content="Chapter 3 Data leak prevention o prevención de fuga de datos | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta property="og:title" content="Chapter 3 Data leak prevention o prevención de fuga de datos | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introducción | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
+  <meta name="twitter:title" content="Chapter 3 Data leak prevention o prevención de fuga de datos | MANUAL DE CIBERSEGURIDAD CON UN ENFOQUE EN SEGUROS" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="sabes-qué-es-un-control-de-accesos.html"/>
+<link rel="prev" href="sabes-qué-es-un-control-de-accesos.html"/>
+<link rel="next" href="evaluación-del-personal-existente-y-nuevas-contrataciones.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -159,30 +159,44 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introducción" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introducción<a href="introducción.html#introducción" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Los seguros hoy en día se han vuelto una necesidad para las personas, debido a los cambios que han surgido con la pandemia, se han visto obligados a adquirir seguros de distintos tipos como seguros de gastos médicos mayores, seguros básicos de salud, algunos ciberseguros, entre otros; esto ha sido una brecha bastante importante para los ciberataques, por lo que es necesario que las empresas busquen opciones de protección para sus datos.</p>
-<p>Muchas empresas no conocen como se manejan los datos en los seguros, si cuentan con sistemas de protección, y si cuentan con ellos que nivel son, hay mucha desinformación al respecto, debido a que la ciberseguridad aun es un tema no muy habitual en México, la mayoría de las personas y las empresas desconocen de esta información es por ello que al contratar seguros no hacen preguntas relacionadas con la seguridad de sus datos.</p>
-<p>Por estas razones hemos creado este pequeño manual donde damos a conocer algunas herramientas de protección de datos, para que cuando alguna persona o empresa desee adquirir un seguro pueda preguntar y de alguna manera evaluar por sí mismo su sistema.</p>
-<p>Algunas de estas herramientas son:</p>
+<div id="data-leak-prevention-o-prevención-de-fuga-de-datos" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Data leak prevention o prevención de fuga de datos<a href="data-leak-prevention-o-prevención-de-fuga-de-datos.html#data-leak-prevention-o-prevención-de-fuga-de-datos" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="qué-es-la-fuga-de-datos" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> ¿Qué es la fuga de datos?<a href="data-leak-prevention-o-prevención-de-fuga-de-datos.html#qué-es-la-fuga-de-datos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La fuga de datos se refiere a la transferencia no autorizada de datos desde dentro de una organización (seguros) a un destinatario externo no deseado. Si bien los datos a menudo se filtran a través de medios digitales, también se pueden filtrar formas físicas de información o documentos. Las fugas de datos pueden presentarse de diferentes formas y pueden variar desde simples correos electrónicos enviados a destinatarios incorrectos hasta ciberataques maliciosos más sofisticados. Si bien estas fugas de datos pueden generar pérdidas monetarias directas para las organizaciones, a menudo son los efectos posteriores del daño a la reputación los que más perjudican a las organizaciones(seguros).
+Los tipos de fuga de datos más concurrentes:</p>
 <ul>
-<li>Control de accesos</li>
-<li>Diameter</li>
-<li>Kerberos</li>
-<li>Monitoreo personal</li>
-<li>Evaluación de personal</li>
-<li>Owasp Zap</li>
+<li>Fugas de datos accidentales: Las fugas de datos accidentales ocurren cuando un usuario dentro de su seguro, sin saberlo, envía información confidencial a usuarios no deseados. Un ejemplo común de una fuga de datos accidental puede ser un correo electrónico enviado al destinatario incorrecto debido a campos autocompletados. Esta práctica resulta ser común ya que las personas caen con más facilidad, ya que como son correos enviados por parte de la empresa, es más certero que las personas caigan.</li>
+<li>Fugas de datos de usuarios internos maliciosos: este tipo de fuga de datos a menudo se denomina exfiltración de datos. En este ejemplo de fuga de datos, los empleados con malas intenciones roban información confidencial, ya sea como una táctica de venganza o para obtener una compensación de los ciberdelincuentes. Las prácticas comunes para robar información y sacarla de la organización incluyen tomar documentos confidenciales, capturar imágenes de información confidencial o quitar unidades USB. En los seguros suele pasar mucho esto, ya que existen competencia por parte de los empleados, lo cual lleva a hacer trampa hacer cosas como el robo, de un empleado a otro, con el fin de que uno de ellos llegué a su meta.</li>
+<li>Fugas de datos electrónicos maliciosos: El correo electrónico sigue siendo el vector de ataque número uno para los ciberdelincuentes. Sin embargo, los seguros ya no confían únicamente en el correo electrónico como su principal plataforma de colaboración. También es una práctica común que los empleados utilicen aplicaciones de Internet y plataformas de mensajería instantánea (WhatsApp, telegram, massinger) para colaborar además del correo electrónico. Las fugas de datos electrónicos maliciosos ocurren cuando los ciberdelincuentes atacan a los usuarios con malware a través de uno de los medios digitales antes mencionados. Estos tipos de ataques cibernéticos incluyen tácticas como el phishing y la suplantación de identidad que engañan a los usuarios para que hagan clic en enlaces o archivos adjuntos maliciosos y pueden engañar a los usuarios para que envíe información confidencial. Con la llegada de la mensajería instantánea llegaron nuevas formas de robo, cómo lo es el phishing. Actualmente la mayoría de los seguros y empresas utilizan está mensajería ya que los mantiene conectados con sus clientes de forma más eficiente y rápida, la mayor parte de este tipo de comunicación está hecha por chatbots los cuales están programados para responder ciertas cuestiones, la información que dichos chatbots puede solicitar es la más valiosa y la cual siempre termina siendo vulnerada, en este caso, los seguros tienen a tener este problema muy seguido ya que, al momento de extraer la información, está puede ser vulnerada por los mismos empleados.</li>
 </ul>
-<p>A continuación, daremos a conocer cada una de estas herramientas, cuál es su función y cómo se lleva a cabo.</p>
+<div id="cómo-lograr-una-prevención-de-fuga-de-datos-efectiva" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> ¿Cómo lograr una prevención de fuga de datos efectiva?<a href="data-leak-prevention-o-prevención-de-fuga-de-datos.html#cómo-lograr-una-prevención-de-fuga-de-datos-efectiva" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Requerimientos para detectar y prevenir a tiempo la fuga de datos en los “seguros”. Identificar, descubrir y clasificar:
+* Primero, debe identificar los sistemas de registros en los que debe enfocarse.
+* Luego, clasifique qué constituye información confidencial, que reside en esos sistemas y descubra cuáles son los elementos de datos que son sensibles en función de esas clasificaciones.
+* Cuanto más automatizados sean estos pasos, más fácil le resultará mantenerse al día con el paisaje de datos y aplicaciones en constante cambio dentro de su entorno.</p>
+<ol style="list-style-type: decimal">
+<li>Analizar los datos confidenciales y las funciones que pueden permitir que éstos fluyan fuera de los sistemas de registros. Los datos confidenciales pueden fluir fuera de estos sistemas a través de análisis e informes, del consumo por aplicaciones posteriores, debido a la replicación en entornos más bajos para desarrollo y test o cuando tenga lugar el procesamiento de datos por parte de los usuarios de negocio.</li>
+<li>Mapear. Un mapa de flujo de datos desde estos sistemas de registros a las fuentes descendentes y ascendentes es muy útil para comprender el aumento del riesgo debido a la fuga de datos reales y potenciales. Hay que tener en cuenta que, cuanto más automatizados estén el proceso de detección y análisis, mejor podrá supervisar y administrar los posibles cambios. Esto funciona bastante ya que no es necesario tener a muchos empleados dentro de dichos sistemas, lo cual evita el robo de información de parte de un empleado.</li>
+<li>Detectar flujos de datos confidenciales en regiones reguladas para cumplir con las leyes de privacidad de datos. Además de los mapas de flujo de datos del sistema, también hay que mantener el control sobre los datos confidenciales. Para prevenir el data leakage, cualquiera de estos movimientos de datos debe ser detectado.</li>
+<li>Aumentar la visibilidad sobre el uso de datos. La monitorización de las actividades y los usuarios de la línea de base para las actividades típicas frente a las anómalas en los sistemas de registros, como las aplicaciones clave y los almacenes de datos, que es donde reside la información más sensible, ayudará a prevenir las amenazas internas. La detección temprana es crucial para evitar las consecuencias de este tipo de acciones malintencionadas que pueden detenerse a tiempo mediante el análisis de comportamiento del usuario, que combina análisis basados en reglas y basados en el aprendizaje automático.</li>
+</ol>
+<div class="figure">
+<img src="https://thumbs.dreamstime.com/z/lago-de-datos-estructurados-y-no-ilustraci%C3%B3n-concepto-vectorial-178515885.jpg" alt="" />
+<p class="caption">Lago-de-datos-estructurados-y-no-ilustraci. (19–10-08). [Ilustración]. Dreamstime.</p>
+</div>
 
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="sabes-qué-es-un-control-de-accesos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="sabes-qué-es-un-control-de-accesos.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="evaluación-del-personal-existente-y-nuevas-contrataciones.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -213,7 +227,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/SelMartinez/Cybersecurity--Manual/edit/master/Introducción.Rmd",
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/edit/master/Data-leak-prevention.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -221,7 +235,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/SelMartinez/Cybersecurity--Manual/blob/master/Introducción.Rmd",
+"link": "https://github.com/SelMartinez/Cybersecurity--Manual/blob/master/Data-leak-prevention.Rmd",
 "text": null
 },
 "download": null,

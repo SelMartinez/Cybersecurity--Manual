@@ -9,5 +9,14 @@ language:
 rmd_files: [
   "index.Rmd",
   "Introducción.Rmd",
-  "Sabes-que-es-un-control-de-accesos.Rmd"
+  "Sabes-que-es-un-control-de-accesos.Rmd",
+  "Data-leak-prevention.Rmd",
+  "Evaluación-del-personal-existente-y-nuevas-contrataciones.Rmd",
+  "Seleccion-de-personal.Rmd",
+  "OWASP-ZAP.Rmd",
+  "Kerberos.Rmd",
+  "Monitoreo-de-personal.Rmd",
+  "cadena-de-custodia.Rmd",
+  "high-profile-targeting.Rmd",
+  "Bibliografia.Rmd"
 ]

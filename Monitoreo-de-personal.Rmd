@@ -1,0 +1,54 @@
+# PROTOCOLO DE MONITOREO DE PERSONAL
+
+## ¿QUÉ ES EL MONITOREO DE PERSONAL?
+
+Es la práctica del uso de herramientas y prácticas para la supervisión de la actividad de los empleados dentro de sus áreas de trabajo, las herramientas que se usan para el rastreo del comportamiento de empleados y el uso adecuado de los recursos de las organizaciones que se aprovechan para la prevención del comportamiento inaceptable y así poder proporcionar una evidencia de la mala conducta de los empleados.
+
+## BENEFICIOS DEL MONITOREO DE PERSONAL.
+Los Softwares de monitoreo de internet y filtrado web ofrecen en conjunto beneficios para los empleadores que deseen tomar ciertas decisiones estas basadas en datos y así poder regular el uso del internet de su amiente laboral. Estos beneficios influyen demasiado en la productividad, identificando algunos hábitos de navegación por parte del personal se puede evitar el acceso a sitios web que pueden contener algún tipo de malware.
+
+## ¿CÓMO ELEGIR UNA SOLUCIÓN ADECUADA PARA EL MONITOREO DE EMPLEADOS?
+Decidir qué solución de software de monitoreo de empleados es la más adecuada para una organización puede ser un proceso desalentador, ya que los requisitos individuales cambiarán según la infraestructura actual de la organización, los tipos de monitoreo que les gustaría realizar, su legislación y los requisitos de cumplimiento normativo, así como como varios otros factores. 
+
+Del mismo modo se debe de tener en cuenta las consideraciones tecnológicas como son:
+*	FUNCIONES: ¿El software proporcionará todas las funciones que necesita la organización? ¿Cuáles son los "imprescindibles" y cuáles son los "buenos para tener"? ¿Qué tan bien se satisfacen esas necesidades con las características provistas?
+
+*	GESTIÓN DE SOFTWARE: ¿La organización necesitará una solución basada en agentes o sin agentes?
+
+*	ALMACENAMIENTO: ¿Deben almacenarse los datos confidenciales con un proveedor de almacenamiento en la nube externo o en las instalaciones?
+
+*	COMPATIBILIDAD: ¿Qué tan bien funcionará el software con la infraestructura existente de la organización?
+
+También se deben de tomar en cuenta las consideraciones de compatibilidad.
+
+*	¿En qué sistemas operativos (SO) y versiones de SO se instalará el software? (Windows, basado en Linux, MacOS, etc.)
+
+*	¿Qué sistemas operativos son compatibles con el proveedor de software? (Esta es una consideración tanto para la máquina host como para la cliente)
+
+*	¿Hay configuraciones disponibles para adaptarse a los trabajadores remotos?
+
+*	¿Qué dispositivos deben monitorearse y esos dispositivos estarán siempre conectados a la red de la organización o serán móviles? (Los dispositivos móviles tienen necesidades únicas)
+
+## HERRAMIENTAS DE MONITOREO
+
+El Monitoreo nos permite incrementar nuestra seguridad que nos proporciona las TI y que estas mismas necesitan para determinar un funcionamiento eficiente y una toma de decisiones a la hora de presentar algún riesgo. Para ello, el monitoreo en las actividades Web de los empleados se lleva a cabo de herramientas y Softwares que faciliten la identifican las deficiencias y optimizaciones de manera eficiente y no reactiva. 
+TIPOS DE HERRAMIENTAS.
+
+### NETWORK PERFORMANCE MONITOR (NPM).
+ En esta herramienta no importa el tamaño de la red ni escala que tenga el análisis de los datos y el monitoreo de recursos. Esta herramienta permitirá tener una idea detallada del estado de la red en tiempo real.
+
+
+### NETWORK TRAFFIC ANALYZER (NTA).
+ Esta herramienta hace que la información fluya sin problema alguno, evita los cuellos de botella y asume el control de la red.
+
+
+### SERVER AND APLICATION MONITOR (SAM).
+ Es un software de monitoreo imprescindible en sistemas informáticos, aplicaciones y Servidores. La increíble versatilidad de esta herramienta permite que sea puesta en marcha en cuestión de minutos con finitas posibilidades personalización.
+
+En el monitoreo de personal y la relación que tiene con los ciberseguros es más amplia, ya que se llevan a cabo varias prácticas protección tanto de servidores como de equipos, en la cuestión de monitoreo se tienen que instalar tanto en los servidores como en los equipos las VPN, esto para que el personal tenga en su ambiente laboral una navegación segura, esto sin dejar de lado los filtros de sitios web.
+
+El tener un Ciberseguros que los filtros de sitios web, beneficiara mucho a la organización para evitar los malware y ser víctimas de secuestro de información e inclusive de ataques de fuerza bruta.
+
+El monitoreo ayuda mucho al rendimiento del personal, también se determina quien es eficiente en su área laboral, esto también va dirigido a los gerentes y cargos más altos porque no solo la parte de “empleados” puede cometer el error de entrar a sitios inseguros, todo personal debe tener cuidado a que sitios ingresa y la información que ingresa como contraseñas, correos etc.
+
+Los ciberseguros deben de incluir en sus pólizas estas herramientas de monitoreo para evitar ser vulnerados en la red y así no poder perder información valioso y que comprometa la integridad de la organización 
